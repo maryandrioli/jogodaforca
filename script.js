@@ -29,7 +29,7 @@ palavra_adivinhada.push("_");
 
 palavra.innerHTML = palavra_adivinhada.join(" ");
 
-const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+const letras = "AÁÃÂBCDEÉÊFGHIÍJKLMNOÓÔÕPQRSTUÚVWXYZ".split("");
 for (let i = 0; i < letras.length; i++) {
 const botao = document.createElement("button");
 botao.innerHTML = letras[i];
